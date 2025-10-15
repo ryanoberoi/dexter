@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dexter"
-version = "0.1.0"
+version = "0.1.1"
 description = "AI agent for financial analysis."
 authors = []
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
-    "langchain>=0.3.27",
-    "langchain-openai>=0.3.35",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.3.0",
     "openai>=1.70.0",
     "prompt-toolkit>=3.0.0",
     "pydantic>=2.11.10",
